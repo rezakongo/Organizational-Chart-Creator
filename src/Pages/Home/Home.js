@@ -9,8 +9,8 @@ function Home(){
             <div className='Home_Right'>
                 <h2>Select a Tool</h2>
                 <div className='Homr_Right_Buttons'>
-                    <button>Organizational Chart</button>
-                    <button>External Entities</button>
+                    <button className='Home_Button'>Organizational Chart</button>
+                    <button className='Home_Button'>Context Diagram</button>
                 </div>
             </div>
         </div>
