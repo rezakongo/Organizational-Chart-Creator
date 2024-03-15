@@ -1,8 +1,3 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-
 function TopNavbar(){
     return(
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -17,7 +12,7 @@ function TopNavbar(){
               <a class="nav-link active" aria-current="page" href="/">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/">Organizational Chart</a>
+              <a class="nav-link" aria-current="page" href="/OrgChart">Organizational Chart</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="/">Context Diagram</a>

@@ -9,7 +9,7 @@ function Home(){
             <div className='Home_Right'>
                 <h2>Select a Tool</h2>
                 <div className='Homr_Right_Buttons'>
-                    <button className='Home_Button'>Organizational Chart</button>
+                    <a href='/OrgChart'><button className='Home_Button'>Organizational Chart</button></a>
                     <button className='Home_Button'>Context Diagram</button>
                 </div>
             </div>
