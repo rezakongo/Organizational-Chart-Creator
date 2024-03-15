@@ -1,0 +1,47 @@
+.OrgChart_Chart_Container{
+    height:60vh;
+    background-color: rgba(255, 255, 255, 0.366);
+    overflow-x: scroll;
+    overflow-y: scroll;
+    border: 2px rgb(60, 55, 55) solid;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.OrgChart_Body{
+    padding-top: 5vh;
+}
+
+.OrgChart_Editor{
+    background-color: rgb(221, 221, 221);
+    border-radius: 10px 10px 10px 10px;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    border: 2px rgb(60, 55, 55) solid;
+    height: 30vh;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+
+.OrgChart_Title{
+    font-size: larger;
+    text-align: center;
+    font-weight: bold;
+}
+
+.OrgChart_Button{
+    background-color: rgba(245, 245, 245, 0.50);
+    border: 3px solid black;
+    border-radius: 5px;
+    height: 8vh;
+    width: 90%;
+    margin:5px 5px 2px 2px !important;
+    font-weight: bold;
+}
+
+.OrgChart_Button:hover{
+    background-color: white;
+    transition: ease-in-out;
+    transition-duration: 300ms;
+    cursor: pointer;
+}
