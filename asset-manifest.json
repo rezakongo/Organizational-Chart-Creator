@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/organizational-chart-creator/static/css/main.5c10b21d.css",
-    "main.js": "/organizational-chart-creator/static/js/main.b039d842.js",
+    "main.js": "/organizational-chart-creator/static/js/main.1e967d94.js",
     "static/js/453.91b05fcd.chunk.js": "/organizational-chart-creator/static/js/453.91b05fcd.chunk.js",
     "index.html": "/organizational-chart-creator/index.html",
     "main.5c10b21d.css.map": "/organizational-chart-creator/static/css/main.5c10b21d.css.map",
-    "main.b039d842.js.map": "/organizational-chart-creator/static/js/main.b039d842.js.map",
+    "main.1e967d94.js.map": "/organizational-chart-creator/static/js/main.1e967d94.js.map",
     "453.91b05fcd.chunk.js.map": "/organizational-chart-creator/static/js/453.91b05fcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5c10b21d.css",
-    "static/js/main.b039d842.js"
+    "static/js/main.1e967d94.js"
   ]
 }
