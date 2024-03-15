@@ -1,9 +1,7 @@
-import OrgChart from 'react-orgchart';
 import 'react-orgchart/index.css';
 import './OrgChart.css';
 import React, { useState } from 'react';
 import download from '../../Methods/Download/Download'
-import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
 import { DynamicNetworkGraph } from 'react-simple-network-graph';
 import { auto } from '@popperjs/core';
