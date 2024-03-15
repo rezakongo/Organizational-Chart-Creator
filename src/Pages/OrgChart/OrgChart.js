@@ -3,7 +3,8 @@ import 'react-orgchart/index.css';
 import './OrgChart.css';
 import React, { useState } from 'react';
 import download from '../../Methods/Download/Download'
-import Upload from '../../Methods/Upload/Upload';
+import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css';
 
 function OrganChart(){
     
@@ -11,13 +12,26 @@ function OrganChart(){
         setJsonText(event.target.value);
     };
 
+    const uploadJson=(e)=>{
+        const fileReader = new FileReader();
+        fileReader.readAsText(e.target.files[0], "UTF-8");
+        fileReader.onload = e => {
+        console.log("e.target.result", e.target.result);
+        setJsonText(e.target.result);
+    };
+    }
+
     const [jsonText,setJsonText]=useState('');
     const [initechOrg, setInitTechOrg]=useState('');
 
     
       const MyNodeComponent = ({node}) => {
         return (
-          <div className="initechNode" onClick={() => alert(node.activities)}>{ node.role }</div>
+          <div className="initechNode">
+            <Popup trigger={<button className='OrgChart_Button'>{node.role}</button>} position="right center">
+              <div>{node.activities}</div>
+            </Popup>
+          </div>
         );
     };
     return(
@@ -31,7 +45,7 @@ function OrganChart(){
             </div>
             <div class="row mt-2">
                 <div class="col-10">
-                    <textarea className='OrgChart_Editor' onChange={handleChange}/>
+                    <textarea value={jsonText} className='OrgChart_Editor' onChange={handleChange}/>
                 </div>
                 <div class="col gx-2">
                     <div className='OrgChart_Title'>
@@ -39,10 +53,10 @@ function OrganChart(){
                     </div>
                     <button className='OrgChart_Button' onClick={()=>{setInitTechOrg(JSON.parse(jsonText))}}>Create From JSON</button>
                     <button className='OrgChart_Button' onClick={()=>{download("OrgChartJson.json",jsonText);}}>Download JSON</button>
+                    <div class="row mt-2">
+                    <input type="file" onChange={uploadJson} />
+                    </div>
                 </div>
-            </div>
-            <div class="row mt-2">
-                <Upload/>
             </div>
             
         </div>
