@@ -1,0 +1,50 @@
+.Home{
+    height: 100%;
+    -webkit-flex: 1;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
+}
+
+.Home_Left{
+    text-align: center;
+    border-right: 5px black solid;
+    padding: 5vh 5vh 5vh 5vh;
+}
+
+.Home_Right{
+    text-align: center;
+    padding: 5vh 5vh 5vh 5vh;
+}
+
+.Home_Right_Buttons{
+    -webkit-flex: 1;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
+}
+
+h1{
+    color: black;
+    font-size:60px;
+    font-weight: bolder;
+}
+
+.Home_Button{
+    background-color: rgba(245, 245, 245, 0.50);
+    border: 3px solid black;
+    border-radius: 5px;
+    height: 8vh;
+    min-width: 20vh;
+    margin:5px 5px 2px 2px !important;
+    font-weight: bold;
+}
+
+.Home_Button:hover{
+    background-color: white;
+    transition: ease-in-out;
+    transition-duration: 300ms;
+    cursor: pointer;
+}
+
+
