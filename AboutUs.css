@@ -1,0 +1,104 @@
+.section-white{
+    background:#fff;
+    padding: 70px 0;
+
+}
+.team{
+    text-align: center;
+}
+.team-item{
+    background:rgba(229, 176, 229, 0.333);
+    text-align: center;
+    margin: 10px ;
+    padding: 20px 5px 5px 5px;
+    border-radius: 8px 8px;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition:all 0.25s ease-in-out ;
+    -ms-transition:all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+}
+.team-item-{
+    background:rgba(229, 176, 229, 0.333);
+    text-align: center;
+    margin: 10px ;
+    padding: 20px 5px 5px 5px;
+    border-radius: 8px 8px;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition:all 0.25s ease-in-out ;
+    -ms-transition:all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+}
+.team-item:hover{
+    background:#3956de;
+    color: #fff;
+
+}
+.email_icon{
+    color: black;
+}
+.team-item:h3{
+    margin: 20px 0 1px 0 !important;
+    color: #454545;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition:all 0.25s ease-in-out ;
+    transition: all 0.25 ease-in-out;
+}
+.section-subtitle p{
+    white-space: pre-line;
+    text-align:center;
+
+
+}
+.section-title :hover p{
+    text-align: center;
+}
+.team-item:hover h3{
+    color: #ddd;
+}
+.team-info{
+    display: block;
+    margin-bottom: 0%;
+}
+.team-info p{
+    color: rgb(148, 148, 201);
+    font-style: italic;
+}
+.team-info::after{
+    background: #3956de;
+    background: -webkit-linear-gradient(
+        135deg, #8b6db4 0% ,#985bff 100%
+    );
+    background: -o-linear-gradient(
+        135deg, #8b6db4 0% ,#985bff 100%  
+    );
+    background: -moz-linear-gradient(
+        135deg, #8b6db4 0% ,#985bff 100%  
+    );
+    background: linear-gradient(
+        135deg, #8b6db4 0% ,#985bff 100%  
+    );
+    display: inline-block;
+    vertical-align: middle;
+    content: '';
+    width:50px;
+    height: 3px;
+    margin-top: -20px;
+}
+.team-img{
+    max-width: 140px;
+    padding: 6px 6px;
+    background-color: aliceblue;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+
+}
+ul.team-icon{
+    margin-top: 25px;
+    
+}
